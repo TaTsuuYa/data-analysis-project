@@ -27,3 +27,9 @@ uv --native-tls run -m src.scraping.show_scraper
 # twenty entries
 uv --native-tls run -m src.scraping.show_scraper 20
 ```
+
+## Data
+CSV file are in the `./data/` directory.
+
+## Notebook
+Notebooks are in `./src/analysis/` directory.
