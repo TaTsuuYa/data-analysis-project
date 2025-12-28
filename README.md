@@ -1,5 +1,11 @@
 # Data analysis project
 
+## Pre requisite
+Install uv (run in powershell)
+```ps
+powershell -c "irm https://astral.sh/uv/install.ps1 | more"
+```
+
 ## Scraping MAL
 
 ### Scraping top animes
