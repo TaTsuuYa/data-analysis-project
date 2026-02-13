@@ -12,20 +12,20 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | more"
 
 ```sh
 # one page (50 entry)
-uv --native-tls run -m src.scraping.ranking_scraper
+uv run -m src.scraping.ranking_scraper
 
 # three pages (150 entry)
-uv --native-tls run -m src.scraping.ranking_scraper 3
+uv run -m src.scraping.ranking_scraper 3
 ```
 
 ### Scraping shows
 
 ```sh
 # one entry
-uv --native-tls run -m src.scraping.show_scraper
+uv run -m src.scraping.show_scraper
 
 # twenty entries
-uv --native-tls run -m src.scraping.show_scraper 20
+uv run -m src.scraping.show_scraper 20
 ```
 
 ## Data
@@ -33,3 +33,4 @@ CSV file are in the `./data/` directory.
 
 ## Notebook
 Notebooks are in `./src/analysis/` directory.
+
